@@ -1,5 +1,5 @@
-demo\PostTest.class
-demo\LoginTest.class
+demo\AllPostTest.class
 demo\WordPressTest.class
+demo\PostTest.class
 demo\PageTest.class
-demo\UnitTest.class
+demo\LoginTest.class

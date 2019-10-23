@@ -1,11 +1,8 @@
 package demo;
 
-import com.wordpress.DashBoardPage;
-import com.wordpress.Driver;
-import com.wordpress.LoginPage;
-import org.testng.Assert;
+import com.wordpress.Pages.LoginPage;
+import com.wordpress.selenium.Driver;
 import org.testng.annotations.BeforeTest;
-import org.testng.annotations.Test;
 
 public class WordPressTest {
 

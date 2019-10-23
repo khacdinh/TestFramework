@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">5 methods,   5 passed</span>
+                    <span class="method-stats">4 methods,   4 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,11 +100,6 @@
                       <a href="#" panel-name="suite-Command_line_suite" class="show-methods passed suite-Command_line_suite"> (show)</a> <!-- show-methods passed suite-Command_line_suite -->
                     </span>
                     <div class="method-list-content passed suite-Command_line_suite">
-                      <span>
-                        <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="demo.LoginTest" hash-for-method="Admin_User_Can_Login">Admin_User_Can_Login</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="demo.PostTest" hash-for-method="Can_Create_A_Basic_Post">Can_Create_A_Basic_Post</a> <!-- method navigator-link -->
@@ -117,12 +112,12 @@
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="demo.UnitTest" hash-for-method="canGoToHomePage">canGoToHomePage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="demo.AllPostTest" hash-for-method="add_post_show_up">add_post_show_up</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="demo.UnitTest" hash-for-method="canGoToJavaPathPage">canGoToJavaPathPage</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-Command_line_suite" title="demo.AllPostTest" hash-for-method="can_search_posts">can_search_posts</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Command_line_suite -->
@@ -137,21 +132,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Command_line_suite" class="panel Command_line_suite">
-          <div class="suite-Command_line_suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">demo.PageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="Can_Go_To_Edit_Page">
-                  </a> <!-- Can_Go_To_Edit_Page -->
-                  <span class="method-name">Can_Go_To_Edit_Page</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Command_line_suite-class-passed -->
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -170,21 +150,14 @@
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">demo.UnitTest</span>
+              <span class="class-name">demo.PageTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="canGoToHomePage">
-                  </a> <!-- canGoToHomePage -->
-                  <span class="method-name">canGoToHomePage</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="canGoToJavaPathPage">
-                  </a> <!-- canGoToJavaPathPage -->
-                  <span class="method-name">canGoToJavaPathPage</span>
+                  <a name="Can_Go_To_Edit_Page">
+                  </a> <!-- Can_Go_To_Edit_Page -->
+                  <span class="method-name">Can_Go_To_Edit_Page</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -192,14 +165,21 @@
           <div class="suite-Command_line_suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">demo.LoginTest</span>
+              <span class="class-name">demo.AllPostTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="Admin_User_Can_Login">
-                  </a> <!-- Admin_User_Can_Login -->
-                  <span class="method-name">Admin_User_Can_Login</span>
+                  <a name="add_post_show_up">
+                  </a> <!-- add_post_show_up -->
+                  <span class="method-name">add_post_show_up</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="can_search_posts">
+                  </a> <!-- can_search_posts -->
+                  <span class="method-name">can_search_posts</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -215,10 +195,10 @@
 &lt;suite verbose=&quot;0&quot; name=&quot;Command line suite&quot;&gt;
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;Command line test&quot;&gt;
     &lt;classes&gt;
+      &lt;class name=&quot;demo.AllPostTest&quot;/&gt;
       &lt;class name=&quot;demo.LoginTest&quot;/&gt;
       &lt;class name=&quot;demo.PageTest&quot;/&gt;
       &lt;class name=&quot;demo.PostTest&quot;/&gt;
-      &lt;class name=&quot;demo.UnitTest&quot;/&gt;
       &lt;class name=&quot;demo.WordPressTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Command line test --&gt;
@@ -259,32 +239,28 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(5);
+data.addRows(4);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'Can_Create_A_Basic_Post')
-data.setCell(0, 2, 'demo.PostTest')
-data.setCell(0, 3, 21913);
+data.setCell(0, 1, 'add_post_show_up')
+data.setCell(0, 2, 'demo.AllPostTest')
+data.setCell(0, 3, 43673);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'canGoToHomePage')
-data.setCell(1, 2, 'demo.UnitTest')
-data.setCell(1, 3, 4231);
+data.setCell(1, 1, 'can_search_posts')
+data.setCell(1, 2, 'demo.AllPostTest')
+data.setCell(1, 3, 39744);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'Admin_User_Can_Login')
-data.setCell(2, 2, 'demo.LoginTest')
-data.setCell(2, 3, 3877);
+data.setCell(2, 1, 'Can_Create_A_Basic_Post')
+data.setCell(2, 2, 'demo.PostTest')
+data.setCell(2, 3, 21246);
 data.setCell(3, 0, 3)
 data.setCell(3, 1, 'Can_Go_To_Edit_Page')
 data.setCell(3, 2, 'demo.PageTest')
-data.setCell(3, 3, 3208);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'canGoToJavaPathPage')
-data.setCell(4, 2, 'demo.UnitTest')
-data.setCell(4, 3, 784);
+data.setCell(3, 3, 2646);
 window.suiteTableData['Command_line_suite']= { tableData: data, tableDiv: 'times-div-Command_line_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 34 seconds</span>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
               <div id="times-div-Command_line_suite">
               </div> <!-- times-div-Command_line_suite -->
             </div> <!-- times-div -->
@@ -299,18 +275,25 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Command_line_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">3 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="ignored-class-div">
-              <span class="ignored-class-name">demo.WordPressTest</span>
+              <span class="ignored-class-name">demo.PostTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">init</span>
                 <br/>
               </div> <!-- ignored-methods-div -->
             </div> <!-- ignored-class-div -->
             <div class="ignored-class-div">
-              <span class="ignored-class-name">demo.PostTest</span>
+              <span class="ignored-class-name">demo.PageTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">init</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">demo.WordPressTest</span>
               <div class="ignored-methods-div">
                 <span class="ignored-method-name">init</span>
                 <br/>
@@ -324,47 +307,33 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">demo.PageTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">demo.AllPostTest</div> <!-- chronological-class-name -->
               <div class="configuration-test before">
                 <span class="method-name">init</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-test before -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">demo.LoginTest</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">Admin_User_Can_Login</span>
-                <span class="method-start">5693 ms</span>
+                <span class="method-name">add_post_show_up</span>
+                <span class="method-start">5705 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">can_search_posts</span>
+                <span class="method-start">49379 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">demo.PageTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Can_Go_To_Edit_Page</span>
-                <span class="method-start">9571 ms</span>
+                <span class="method-start">89124 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">demo.PostTest</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">Can_Create_A_Basic_Post</span>
-                <span class="method-start">12780 ms</span>
+                <span class="method-start">91771 ms</span>
               </div> <!-- test-method -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">demo.UnitTest</div> <!-- chronological-class-name -->
-              <div class="test-method">
-                <span class="method-name">canGoToHomePage</span>
-                <span class="method-start">34693 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">canGoToJavaPathPage</span>
-                <span class="method-start">38924 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-test after">
-                <span class="method-name">cleanUp</span>
-                <span class="method-start">39708 ms</span>
-              </div> <!-- configuration-test after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

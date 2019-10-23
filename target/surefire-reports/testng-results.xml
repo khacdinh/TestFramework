@@ -1,43 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="7" passed="5">
+<testng-results skipped="0" failed="0" ignored="3" total="7" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="39758" started-at="2019-10-22T09:21:53Z" finished-at="2019-10-22T09:22:33Z">
+  <suite name="Command line suite" duration-ms="113017" started-at="2019-10-23T07:53:13Z" finished-at="2019-10-23T07:55:06Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="39758" started-at="2019-10-22T09:21:53Z" finished-at="2019-10-22T09:22:33Z">
-      <class name="demo.UnitTest">
-        <test-method status="PASS" signature="canGoToHomePage()[pri:0, instance:demo.UnitTest@6bdf28bb]" name="canGoToHomePage" duration-ms="4231" started-at="2019-10-22T09:22:28Z" finished-at="2019-10-22T09:22:32Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- canGoToHomePage -->
-        <test-method status="PASS" signature="canGoToJavaPathPage()[pri:0, instance:demo.UnitTest@6bdf28bb]" name="canGoToJavaPathPage" duration-ms="784" started-at="2019-10-22T09:22:32Z" finished-at="2019-10-22T09:22:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- canGoToJavaPathPage -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:demo.UnitTest@6bdf28bb]" name="cleanUp" is-config="true" duration-ms="50" started-at="2019-10-22T09:22:33Z" finished-at="2019-10-22T09:22:33Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- cleanUp -->
-      </class> <!-- demo.UnitTest -->
+    <test name="Command line test" duration-ms="113017" started-at="2019-10-23T07:53:13Z" finished-at="2019-10-23T07:55:06Z">
       <class name="demo.PageTest">
-        <test-method status="PASS" signature="init()[pri:0, instance:demo.PageTest@1b0375b3]" name="init" is-config="true" duration-ms="5684" started-at="2019-10-22T09:21:53Z" finished-at="2019-10-22T09:21:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- init -->
-        <test-method status="PASS" signature="Can_Go_To_Edit_Page()[pri:0, instance:demo.PageTest@1b0375b3]" name="Can_Go_To_Edit_Page" duration-ms="3208" started-at="2019-10-22T09:22:03Z" finished-at="2019-10-22T09:22:06Z">
+        <test-method status="PASS" signature="Can_Go_To_Edit_Page()[pri:0, instance:demo.PageTest@6442b0a6]" name="Can_Go_To_Edit_Page" duration-ms="2646" started-at="2019-10-23T07:54:43Z" finished-at="2019-10-23T07:54:45Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Can_Go_To_Edit_Page -->
       </class> <!-- demo.PageTest -->
-      <class name="demo.LoginTest">
-        <test-method status="PASS" signature="Admin_User_Can_Login()[pri:0, instance:demo.LoginTest@2f7c7260]" name="Admin_User_Can_Login" duration-ms="3877" started-at="2019-10-22T09:21:59Z" finished-at="2019-10-22T09:22:03Z">
+      <class name="demo.AllPostTest">
+        <test-method status="PASS" signature="init()[pri:0, instance:demo.AllPostTest@4411d970]" name="init" is-config="true" duration-ms="5691" started-at="2019-10-23T07:53:13Z" finished-at="2019-10-23T07:53:19Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Admin_User_Can_Login -->
-      </class> <!-- demo.LoginTest -->
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="add_post_show_up()[pri:0, instance:demo.AllPostTest@4411d970]" name="add_post_show_up" duration-ms="43673" started-at="2019-10-23T07:53:19Z" finished-at="2019-10-23T07:54:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- add_post_show_up -->
+        <test-method status="PASS" signature="can_search_posts()[pri:0, instance:demo.AllPostTest@4411d970]" name="can_search_posts" duration-ms="39744" started-at="2019-10-23T07:54:03Z" finished-at="2019-10-23T07:54:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- can_search_posts -->
+      </class> <!-- demo.AllPostTest -->
       <class name="demo.PostTest">
-        <test-method status="PASS" signature="Can_Create_A_Basic_Post()[pri:0, instance:demo.PostTest@2d209079]" name="Can_Create_A_Basic_Post" duration-ms="21913" started-at="2019-10-22T09:22:06Z" finished-at="2019-10-22T09:22:28Z">
+        <test-method status="PASS" signature="Can_Create_A_Basic_Post()[pri:0, instance:demo.PostTest@60f82f98]" name="Can_Create_A_Basic_Post" duration-ms="21246" started-at="2019-10-23T07:54:45Z" finished-at="2019-10-23T07:55:06Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Can_Create_A_Basic_Post -->

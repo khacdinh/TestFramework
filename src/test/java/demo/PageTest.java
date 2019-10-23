@@ -1,8 +1,8 @@
 package demo;
 
-import com.wordpress.ListPostPage;
-import com.wordpress.NewPostPage;
-import com.wordpress.PostType;
+import com.wordpress.Pages.ListPostPage;
+import com.wordpress.Pages.NewPostPage;
+import com.wordpress.enums.PostType;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

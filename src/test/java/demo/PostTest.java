@@ -1,8 +1,7 @@
 package demo;
 
-import com.wordpress.LoginPage;
-import com.wordpress.NewPostPage;
-import com.wordpress.PostPage;
+import com.wordpress.Pages.NewPostPage;
+import com.wordpress.Pages.PostPage;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
